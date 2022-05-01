@@ -1,0 +1,288 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity_HC_ZLPro_ShootingMobie_2022_04_24/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53832
+Successfully changed project path to: C:/Unity_HC_ZLPro_ShootingMobie_2022_04_24/My project
+C:/Unity_HC_ZLPro_ShootingMobie_2022_04_24/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 27.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity_HC_ZLPro_ShootingMobie_2022_04_24/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T600 (ID=0x1fb1)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003640 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (483ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1768 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (57.0 KB). Loaded Objects now: 2236.
+Memory consumption went from 78.8 MB to 78.7 MB.
+Total: 2.384800 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.100100 ms  DeleteObjects: 0.068500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13680.172559 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo
+  artifactKey: Guid(0e2f43d9df0f0294eaafc49be4ebda3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo using Guid(0e2f43d9df0f0294eaafc49be4ebda3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2283bee88fc888c3ea0bafa370764b0e') in 0.003410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith
+  artifactKey: Guid(09b5e4f4daedca14f877c6185cdc54ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith using Guid(09b5e4f4daedca14f877c6185cdc54ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb90cc8fb79771a7162ae7a840aa74e1') in 0.001066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation
+  artifactKey: Guid(39cc99f2e4d4f4f4c9f93871300befa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation using Guid(39cc99f2e4d4f4f4c9f93871300befa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7faee6dc7996ab52d8d1eb1558480de') in 0.001144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.399270 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models
+  artifactKey: Guid(e20ae92911ce1af44a7a173c1295f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models using Guid(e20ae92911ce1af44a7a173c1295f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99702318400b79ad9ad10e82f4f58fe6') in 0.001335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084959 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/TT_demo_female.FBX
+  artifactKey: Guid(8f2819ec541c5ea458231eafa3b5f1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/TT_demo_female.FBX using Guid(8f2819ec541c5ea458231eafa3b5f1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032aac162759f149d5585bee989bf412') in 0.151684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/TT_demo_male_B.FBX
+  artifactKey: Guid(8fa2a9d0520e5304190570b9b32fff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/models/TT_demo_male_B.FBX using Guid(8fa2a9d0520e5304190570b9b32fff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793496a1c337f0a3e59a3e6e7e67589a') in 0.022719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.886734 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Materials/M_Cars.mat
+  artifactKey: Guid(4f28036b2fdd7824f904e56de7c6c1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Materials/M_Cars.mat using Guid(4f28036b2fdd7824f904e56de7c6c1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd2a7a25b7fc8cd0d0b99c0a236ffb5') in 0.027607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.945450 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Meshes/Car_B1.fbx
+  artifactKey: Guid(f92ee84dce639884882c4ffddd3b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Meshes/Car_B1.fbx using Guid(f92ee84dce639884882c4ffddd3b28c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ffb6886f2886bcff1d7ecf81bcd1ed') in 0.118975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2248.253940 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Prefabs/Car_B1.prefab
+  artifactKey: Guid(21784e75583bd7847b965f9b16505160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Prefabs/Car_B1.prefab using Guid(21784e75583bd7847b965f9b16505160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1a57de50b393a333498e4e9cb289a8') in 0.022801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.741030 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Textures/T_Cars_Demo.tga
+  artifactKey: Guid(6374cc3bb4fbf5c4e84e3392d170f6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Textures/T_Cars_Demo.tga using Guid(6374cc3bb4fbf5c4e84e3392d170f6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ed95e2ce95d8c729249efd326bc83d') in 0.018572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.441483 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Scenes
+  artifactKey: Guid(0c68cf5d30aead6459becca5b3602a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Scenes using Guid(0c68cf5d30aead6459becca5b3602a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c9a7848a0b274abedf54ebc4d264f') in 0.001017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.748215 seconds.
+  path: Assets/Tiny_Toony_City_Demo/Scenes/Demo_Scene.unity
+  artifactKey: Guid(b32f9224a7f8a6f4eb5a631e4ece1fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny_Toony_City_Demo/Scenes/Demo_Scene.unity using Guid(b32f9224a7f8a6f4eb5a631e4ece1fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63cdf6d1aaf4322bb906ff64a787b5d') in 0.001308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.062617 seconds.
+  path: Assets/Scenes/遊戲場景.unity
+  artifactKey: Guid(7b5129c0eef978149bcb941d7a51f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/遊戲場景.unity using Guid(7b5129c0eef978149bcb941d7a51f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e081dfc586219026b48efe2538bdb2de') in 0.001290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2683.226083 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo
+  artifactKey: Guid(18a2b852541163c40a838af7fa74688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo using Guid(18a2b852541163c40a838af7fa74688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413cdc4e1e4c0eac683f994eb89122d9') in 0.001638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.377308 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model
+  artifactKey: Guid(2171a67348f1d6146836237bca600d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model using Guid(2171a67348f1d6146836237bca600d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ab27f4419be9b2c71fe92fcd50b78') in 0.001451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084936 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX
+  artifactKey: Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX using Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d2c1ba306c6a67a34621509d8432ef') in 0.025183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.337525 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials
+  artifactKey: Guid(4918428999fa3b643b9cab147af5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials using Guid(4918428999fa3b643b9cab147af5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fabacbb2e7e766ad52f35c8a728949') in 0.001431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.347278 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_material.mat
+  artifactKey: Guid(567681dbfb9f1994584c4a77df698d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/model/materials/TTS_Demo_material.mat using Guid(567681dbfb9f1994584c4a77df698d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa57dd7dae5ca0185aee5b6d8ce4084a') in 0.020608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.203109 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX
+  artifactKey: Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX using Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d07bc838dfa3b08c43e0064e4cdb07') in 0.008896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX
+  artifactKey: Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX using Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72aa266995fac12d9d6656697e59080') in 0.005543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX
+  artifactKey: Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX using Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0619197437603be06e5732a9efc9371d') in 0.004933 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
