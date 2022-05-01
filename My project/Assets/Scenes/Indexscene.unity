@@ -455,7 +455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goConnectView: {fileID: 1541562883}
   btnBattle: {fileID: 98329251}
-  textCountPlayer: {fileID: 0}
+  textCountPlayer: {fileID: 928673906}
 --- !u!1 &830931579
 GameObject:
   m_ObjectHideFlags: 0

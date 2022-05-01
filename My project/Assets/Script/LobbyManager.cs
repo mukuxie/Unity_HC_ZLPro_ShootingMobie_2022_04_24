@@ -61,8 +61,17 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         int maxCount = PhotonNetwork.CurrentRoom.MaxPlayers;
 
         textCountPlayer.text = "連線人數" + currentCount + " / " + maxCount;
-    }
+    
+   }
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        base.OnPlayerEnteredRoom(newPlayer);
+        print("<color=yellow> 玩家進入房間</color>");
+        int currentCount = PhotonNetwork.CurrentRoom.PlayerCount;
+        int maxCount = PhotonNetwork.CurrentRoom.MaxPlayers;
 
+        textCountPlayer.text = "連線人數" + currentCount + " / " + maxCount;
+    }
 
 
 }
